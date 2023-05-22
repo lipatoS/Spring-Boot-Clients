@@ -41,6 +41,13 @@ GET http://localhost:8080/api/clients/2
 
 PUT http://localhost:8080/api/clients
 
+{
+	"id": 1,
+	"first_name": "John",
+    "last_name": "Green",
+    "phone": "888 123-4587"
+}
+
 5) REST-запит на видалення даних за id
 
 DELETE http://localhost:8080/api/clients/2
